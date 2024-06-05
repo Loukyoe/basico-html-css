@@ -81,6 +81,26 @@ padding: 2% 0% 0% 15%;
     font-size: 24px;
 }
 
+.apresentacao__links__cursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    font-size:24px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    border: 5px solid #070707;
+    padding: 20.5px 70px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    background-color: #fdd834;
+}
+
+.apresentacao__links__cursos__destaque{
+    color:#5C1317;
+}
+
 .apresentacao__links__link{
     /* background-color:#991b21eb; */
     display: flex;
